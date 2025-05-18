@@ -2,6 +2,7 @@
 The keyof keyword creates a union of the keys in a given object type. This allows developers to reference the property names of an object as a type. This is particularly useful for type-safe access to object properties.
 
 Example:
+
 ``` typescript
 type User = {
   id: number;
