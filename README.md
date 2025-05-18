@@ -21,9 +21,9 @@ const name = getProperty(user, "name");
 In this example, keyof User creates a union type "id" | "name" | "age", making the getProperty function type-safe by ensuring only valid keys are used.
 
 # Explain the difference between any, unknown, and never types in TypeScript.
-any allows any value to be assigned without type checking. It disables TypeScript's type checking, making it risky.
-unknown is similar to any but requires type checking before usage, providing more safety.
-never represents values that never occur, such as functions that throw errors or have infinite loops.
+Any allows any value to be assigned without type checking. It disables TypeScript's type checking, making it risky.
+Unknown is similar to any but requires type checking before usage, providing more safety.
+Never represents values that never occur, such as functions that throw errors or have infinite loops.
 
 Example:
 
